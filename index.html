@@ -6,7 +6,7 @@
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <meta name="title" content="VideoLucy">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
   <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
@@ -74,11 +74,11 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>VideoLucy | Academic Research</title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/ico.jpg">
+  <link rel="apple-touch-icon" href="static/images/ico.jpg">
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -170,7 +170,7 @@
     "@type": "Organization",
     "name": "INSTITUTION_OR_LAB_NAME",
     "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "logo": "https://YOUR_DOMAIN.com/static/images/ico.jpg",
     "sameAs": [
       "https://twitter.com/YOUR_TWITTER_HANDLE",
       "https://github.com/YOUR_GITHUB_USERNAME"
@@ -178,9 +178,44 @@
   }
   </script>
 </head>
+
+
+
+<style>
+.video-caption {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.video-caption h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #363636;
+}
+
+.video-caption p {
+  font-size: 0.9rem;
+  color: #4a4a4a;
+  line-height: 1.4;
+}
+
+.highlight-green {
+  color: #28a745;
+  font-weight: bold;
+
+}.title-icon {
+            width: 12%;
+            height: auto;
+            margin-right: 15px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+</style>
+
 <body>
-
-
   <!-- Scroll to Top Button -->
   <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
     <i class="fas fa-chevron-up"></i>
@@ -202,34 +237,46 @@
       </div>
       <div class="works-list">
         <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+        <a href="https://github.com/Zplusdragon/ReID5o_ORBench" class="work-item" target="_blank">
           <div class="work-info">
             <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
+            <h5>ReID5o: Achieving Omni Multi-modal Person Re-identification in a Single Model</h5>
             <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
+            <p>We investigate a new challenging problem called Omni Multi-modal Person Re-identification (OM-ReID), which aims to achieve effective retrieval with varying multi-modal queries.</p>
             <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
+            <span class="work-venue">NeurIPS 2025</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
         <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
+
+        <a href="https://github.com/Zplusdragon/PLIP" class="work-item" target="_blank">
           <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
+            <h5>PLIP: Language-Image Pre-training for Person Representation Learning</h5>
+            <p>PLIP is a novel Language-Image Pre-training framework for generic Person representation learning which benefits a range of downstream person-centric tasks.Also, we present a large-scale person dataset named SYNTH-PEDES to verify its effectiveness.</p>
+            <span class="work-venue">NeurIPS 2024</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
+
+        <a href="https://github.com/Zplusdragon/CION_ReIDZoo" class="work-item" target="_blank">
           <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
+            <h5>Cross-video Identity Correlating for Person Re-identification Pre-training</h5>
+            <p>CION is our proposed person re-identification pre-training framework that deeply utilizes cross-video identity correlations. CION-AL is a new large-scale person re-identification pre-training dataset with almost accurate identity labels. ReIDZoo is a new fully open-sourced pre-trained model zoo to meet diverse research and application needs in the field of person re-identification.</p>
+            <span class="work-venue">NeurIPS 2024</span>
           </div>
           <i class="fas fa-external-link-alt"></i>
         </a>
+
+        <a href="https://github.com/zplusdragon/ufinebench" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>UFineBench: Towards Text-based Person Retrieval with Ultra-fine Granularity</h5>
+            <p>UFineBench is a new benchmark towards ultra-fine-grained text-based person retrieval. It mainly contains a new manually annotated fine-grained dataset UFine6926, a special evaluation set UFine3C, a new metric named mSD and a new algorithm CFAM.</p>
+            <span class="work-venue">CVPR 2024</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+
       </div>
     </div>
   </div>
@@ -241,30 +288,46 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
+             <img src="static/images/ico.jpg" alt="VideoLucy icon" class="title-icon">
             <h1 class="title is-1 publication-title">VideoLucy: Deep Memory Backtracking for Long Video Understanding</h1>
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://videolucy.github.io" target="_blank">Jialong Zuo</a><sup>1</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://videolucy.github.io" target="_blank">Yongtai Deng</a><sup>1</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://videolucy.github.io" target="_blank">Lingdong Kong</a><sup>2</sup>,</span>
+                    <span class="author-block">
+                      <a href="https://videolucy.github.io" target="_blank">Jingkang Yang</a><sup>3</sup>,</span>
+                      <span class="author-block">
+                        <a href="https://videolucy.github.io" target="_blank">Rui Jin</a><sup>1</sup>,</span>
+                        <span class="author-block">
+                          <a href="https://videolucy.github.io" target="_blank">Yiwei Zhang</a><sup>1</sup>,</span>
+                          <span class="author-block">
+                            <a href="https://videolucy.github.io" target="_blank">Nong Sang</a><sup>1</sup>,</span>
+                            <span class="author-block">
+                              <a href="https://videolucy.github.io" target="_blank">Liang Pan</a><sup>4</sup>,</span>
+                              <span class="author-block">
+                                <a href="https://videolucy.github.io" target="_blank">Ziwei Liu</a><sup>3*</sup>,</span>
+                                <span class="author-block">
+                                  <a href="https://videolucy.github.io" target="_blank">Changxin Gao</a><sup>1*</sup>,</span>
+
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
+                    <span class="author-block"><sup>1</sup> National Key Laboratory of Multispectral Information Intelligent Processing Technology, School of Artificial Intelligence and Automation, Huazhong University of Science and Technology<br><sup>2</sup>NUS   <sup>3</sup>S-Lab, NTU   <sup>4</sup>Shanghai AI Lab<br>NeurIPS-2025 Accepted Paper</span>
                     <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Authors</small></span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://videolucy.github.io" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -273,20 +336,9 @@
                       </a>
                     </span>
 
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
                   <!-- TODO: Replace with your GitHub repository URL -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://videolucy.github.io" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -294,10 +346,19 @@
                     <span>Code</span>
                   </a>
                 </span>
-
+                <!-- Dataset Link. -->
+                  <span class="link-block">
+                    <a href="https://videolucy.github.io"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                          <i class="far fa-images"></i>
+                      </span>
+                      <span>Dataset</span>
+                      </a>
+                    </span>
                 <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://videolucy.github.io" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -313,24 +374,20 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
+<!-- Teaser image -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
+      <div class="image-container">
+        <img src="static/images/demo1.png" alt="Teaser Image" id="tree" height="100%">
+      </div>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Qualitative comparison of event understanding in long videos. Compared with existing leading video MLLMs, <strong>our VideoLucy stands out in capturing and integrating cross-temporal events in long videos</strong>, along with explainable and comprehensive reasoning process. 
       </h2>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+<!-- End teaser image -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -341,7 +398,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            We propose VideoLucy, a deep memory backtracking framework for long video understanding. Inspired by the human recollection process from coarse to fine, VideoLucy employs <strong>a hierarchical memory structure</strong> with progressive granularity. This structure explicitly defines the detail level and temporal scope of memory at different hierarchical depths. Through <strong>an agent-based iterative backtracking mechanism</strong>, VideoLucy systematically mines video-wide, question-relevant deep memories until sufficient information is gathered to provide a confident answer. This design enables effective temporal understanding of consecutive frames while preserving critical details. In addition, we introduce EgoMem, <strong>a new benchmark for long video understanding</strong>. EgoMem is designed to comprehensively evaluate a model's ability to understand complex events that unfold over time and capture fine-grained details in extremely long videos. Extensive experiments demonstrate the superiority of VideoLucy. Built on open-source models, VideoLucy significantly outperforms state-of-the-art methods on multiple long video understanding benchmarks, achieving performance even surpassing the latest proprietary models such as GPT-4o.
           </p>
         </div>
       </div>
@@ -351,97 +408,179 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+      <h2 class="title is-3 has-text-centered">Method</h2>
+
+      <div class="image-container">
+        <img src="static/images/Fig1.png" alt="Teaser Image" id="tree" style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
       <h2 class="subtitle has-text-centered">
-        Fourth image description.
+       Comparison between our VideoLucy with existing video agent-based systems. In(a), they usually perform frame-level captioning on sparsely sampled frames, and then search for information, resulting in great information loss and hampering temporal understanding. In (b), our VideoLucy, through a hierarchical memory structure and a memory backtracking mechanism, effectively performs <strong>multi-level video representation</strong> and achieves <strong>comprehensive information coverage</strong>.
       </h2>
+
+      <div class="image-container">
+        <img src="static/images/Alg1.png" alt="Teaser Image" id="tree" style="max-width: 60%; height: auto; display: block; margin: 0 auto;">
+      </div>
+      <h2 class="subtitle has-text-centered">
+        We propose a novel <strong>iterative backtracking mechanism</strong>. Through an agent-driven iterative loop, we continuously update the current memory initialized by sparse coarse memory, so as to <strong>dynamically explore the question-related memory</strong> in terms of both breadth and depth. This mechanism emulates the human recollection process and achieves a comprehensive search and integration of information relevant to the question with a relatively low resource cost.
+      </h2>
+
+      </div>
     </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
+  </section>
 
 
-
-
-<!-- Youtube video -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
+      <h2 class="title is-3 has-text-centered">EgoMem Benchmark</h2>
+
+      <div class="image-container">
+        <img src="static/images/bench.png" alt="Teaser Image" id="tree" style="max-width: 80%; height: auto; display: block; margin: 0 auto;">
+      </div>
+      <h2 class="subtitle has-text-centered">
+       We construct a new benchmark for ultra-long video understanding, namely <strong>EgoMem</strong>, aiming to measure the ability to model instantaneous (detail perception) and continuous (event understanding) memory of long videos. Based on the video resources of EgoLife, we manually annotate question-answer pairs that particularly focus on <strong>the understanding of cross-temporal events</strong> and <strong>the perception of instantaneous visual features</strong> for each day’s long video. For the event understanding, we design six different question types to conduct a comprehensive and effective evaluation of the model’s performance in a real sense, and to avoid shortcuts. In addition, we manually annotate questions about the subtle visual features in those instantaneous time segments to assess whether the model can effectively cover detailed information. It contains 42 videos with an average duration of 6.33 hours and 504 questions. 
+      </h2>
+
+      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata" style="max-width: 50%; height: auto; display: block; margin: 0 auto;" >
+        <!-- TODO: Add your video file path here -->
+        <source src="static/videos/egomem.mp4" type="video/mp4" >
+      </video>
+      <!-- TODO: Replace with your video description -->
+      <p>
+        <br>
+        This is a clip from the original long video, provided as a demo.<br>
+        An example for the Detail Perception task in EgoMem: <br>
+        <strong>Jake picked up KFC fast food from the delivery person for lunch. What was the delivery person wearing when Jake received the food?</strong><br>
+        A. A blue denim jacket, a blue-green long dress, and white sports shoes.<br>
+        B. A light green long-sleeved shirt, black long pants, and black leather shoes.<br>
+        <span class="highlight-green">C. A green long-sleeved jacket, black long pants, and white sports shoes.</span><br>
+        D. An orange-gray T-shirt, khaki loose long pants, and gray sports shoes.<br>
+        Reanson: Around 3 seconds before and after 14:09:41, when Jake picked up the food from the delivery person, the delivery person was wearing a green long-sleeved jacket, black long pants, and white sports shoes.
+      <p>
+
       </div>
     </div>
-  </div>
-</section>
-<!-- End youtube video -->
+  </section>
+
 
 
 <!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
+      <h2 class="title is-3 has-text-centered">Needle-in-A-Video-Haystack</h2>
+      <div class="image-container">
+        <img src="static/images/NIVH_exp.png" alt="Teaser Image" id="tree" style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+      </div>
+      <h2 class="subtitle has-text-centered">
+       We conduct a Needle-in-A-Video-Haystack evaluation experiment. Specifically, we randomly select 10 long videos with durations ranging from 400s to 4000s from the existing benchmarks. Then, we insert 10s short video clips (needles) from the Internet at five arbitrary timestamps throughout each long video, from the beginning to the end. Then we feed the entire long video into the model and conduct a question-answering test regarding the content of these short clips. There are 4 questions for each clip, forming 20 questions for one long video. The performance of our VideoLucy is significantly better than that of the existing leading models, and its results are almost unaffected by the video length. This indicates that <strong>our VideoLucy has a very strong ability to search for question-relevant details in long video understanding.</strong> More experiments and details can be found in the paper.
+      </h2>
+
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
+          <video poster="" id="video1" controls muted loop height="100%" preload="metadata" style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+            <source src="static/videos/needle1.mp4" type="video/mp4">
           </video>
+          <div class="video-caption">
+            <p>
+              A short scene appears in the video where an animal doll performs on a magnificent stage.<br>
+              <strong>1. What kind of animal doll is the main performer in this scene?</strong><br>
+              A. Giraffe B. Tiger <span class="highlight-green">C. Gorilla</span> D. Zebra<br>
+              <strong>2. What musical instrument is being played?</strong> <br>
+              A. Violin B. Guitar <span class="highlight-green">C. Piano</span> D. Saxophone<br>
+              <strong>3. What color of clothes is it wearing?</strong><br>
+              <span class="highlight-green">A. A dark brown leather coat and a green inner garment.</span> B. A blue leather coat and a green inner garment.<br>
+              C. A dark brown leather coat and a blue inner garment. D. A blue leather coat and a blue inner garment.<br>
+              <strong>4. What is written on the plaque hanging above the stage?</strong> <br>
+              <span class="highlight-green">A. sing on tour.</span> B. animal show. C. dancing show. D. song and piano.
+          </p>
+          </div>
         </div>
+
         <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
+          <video poster="" id="video2" controls muted loop height="100%" preload="metadata" style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+            <source src="static/videos/needle2.mp4" type="video/mp4">
           </video>
+          <div class="video-caption">
+            <p>
+              A short scene of a basketball game appears in the video.<br>
+              <strong>1. What is the jersey number of the player with the ball on offense?</strong><br> 
+              <span class="highlight-green">A. 6</span> B. 16 C. 23 D. 77<br>
+              <strong>2. What color of sneakers is the player with the ball on offense wearing?</strong><br>
+              <span class="highlight-green">A. Pink</span> B. Blue C. Black D. White<br>
+              <strong>3. What kind of medal are the four players in the photo holding?</strong><br>
+              A. Bronze medal B. Silver medal <span class="highlight-green">C. Gold medal</span> D. They are not holding any medal<br>
+              <strong>4. What brand of sports jacket are the four players in the photo wearing?</strong><br>
+              <span class="highlight-green">A. Nike</span> B. Adidas C. Puma D. Under Armour
+            </p>
+          </div>
         </div>
+
         <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata" style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+            <source src="static/videos/needle3.mp4" type="video/mp4">
           </video>
+          <div class="video-caption">
+            <p>
+              A short scene appears in the video, in which a man dressed in ancient costume is sitting on the ground and looking into a mirror.<br>
+              <strong>1. When the man looks at his feet, how many moles are there on his feet unexpectedly?</strong><br>
+              A. 1 B. 2 <span class="highlight-green">C. 3</span> D. 4<br>
+              <strong>2. What style of shoes is the man wearing?</strong><br>
+              <span class="highlight-green">A. One foot is bare and the other foot is wearing a straw sandal.</span> B. Wearing a pair of casual sports shoes.<br>
+              C. One foot is bare and the other foot is wearing a sports shoe. D. Both feet are not wearing any shoes.<br>
+              <strong>3. What style of pants is the man wearing?</strong><br>
+              <span class="highlight-green">A. Dark gray long pants decorated with red flowers.</span> B. Dark gray long pants decorated with orange flowers.<br>
+              C. White long pants decorated with red flowers. D. Pure gray long pants.<br>
+              <strong>4. What does the man see in the mirror?</strong><br>
+              <span class="highlight-green">A. The Monkey King</span> B. Zhu Bajie C. Sha Heshang D. Tang Seng.
+            </p>
+          </div>
         </div>
+
+        <div class="item item-video4">
+          <video poster="" id="video4" controls muted loop height="100%" preload="metadata" style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+            <source src="static/videos/needle4.mp4" type="video/mp4">
+          </video>
+          <div class="video-caption">
+            <p>
+              A short live news report about a snooker match appears in the video.<br>
+              <strong>1. Who is reported to have won the championship in this scene?</strong><br>
+              <span class="highlight-green">A. Zhao Xintong</span> B. Ding Junhui C. Ronnie O'Sullivan D. Judd Trump<br>
+              <strong>2. What is the time of the news broadcast in this scene?</strong><br>
+              <span class="highlight-green">A. May 6th</span> B. May 7th C. May 8th D. May 9th<br>
+              <strong>3. What color of ball is the snooker player hitting in this scene?</strong><br>
+              <span class="highlight-green">A. Black ball</span> B. Pink ball C. Blue ball D. Green ball<br>
+              <strong>4. What color of clothes is the winning player wearing in this scene?</strong><br>
+              <span class="highlight-green">A white long-sleeved shirt with a black sleeveless waistcoat.</span> B. A black long-sleeved shirt with a white sleeveless waistcoat.<br>
+              C. Just a white long-sleeved shirt. D. Just a black long-sleeved shirt.
+            </p>
+          </div>
+        </div>
+
+        <div class="item item-video5">
+          <video poster="" id="video5" controls muted loop height="100%" preload="metadata" style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+            <source src="static/videos/needle5.mp4" type="video/mp4">
+          </video>
+          <div class="video-caption">
+            <p>
+              A scene appears in the video, in which an elderly man standing beside a truck is having a conversation with a shirtless man.<br>
+              <strong>1. What does the old man ask the young man to do?</strong><br>
+              A. Ask the young man to lend him money. <span class="highlight-green">B. Ask the young man to help collect the rent.</span><br>
+              C. Ask the young man to pay the rent. D. Pay the rent for the young man.<br>
+              <strong>2. What color of hat is the young man wearing?</strong><br>
+              <span class="highlight-green">A. Black</span> B. Gray C. Not wearing a hat D. Green<br>
+              <strong>3. What are the names of the two of them?</strong><br>
+              <span class="highlight-green">A. Brian and Jason</span> B. Bob and Jack C. Rocky and Jack D. Trump and Bob<br>
+              <strong>4. What does the shirtless young man do after the conversation?</strong><br>
+              <span class="highlight-green">A. He opens the door and walks into the room.</span> B. He goes down the stairs.<br>
+              C. He drives away. D. He jumps off the balcony.
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -449,18 +588,14 @@
 <!-- End video carousel -->
 
 
-
-
-
-
 <!-- Paper poster -->
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">Poster</h2>
+      <h2 class="title is-3 has-text-centered">Paper</h2>
 
       <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+      <iframe  src="static/pdfs/VideoLucy_NeurIPS25_Arxiv.pdf" width="100%" height="550">
           </iframe>
         
       </div>
@@ -480,12 +615,12 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <pre id="bibtex-code"><code>@inproceedings{
+zuo2025videolucy,
+title={VideoLucy: Deep Memory Backtracking for Long Video Understanding},
+author={Jialong Zuo, Yongtai Deng, Lingdong Kong, Jingkang Yang, Rui Jin, Yiwei Zhang, Nong Sang, Liang Pan, Ziwei Liu, Changxin Gao},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2025}
 }</code></pre>
     </div>
 </section>
